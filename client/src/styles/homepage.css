@@ -1,0 +1,35 @@
+.toggle-box {
+  display: flex;
+  justify-content: center;
+}
+.toggle {
+  text-align: center;
+  width: 33%;
+  padding: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.toggle:hover {
+  background-color: rgb(223, 219, 219);
+}
+
+.selected {
+  border-bottom: 4px rgba(75, 75, 212, 0.678) solid;
+}
+
+input {
+  padding: 5px;
+  border: 2px solid grey;
+  margin-bottom: 10px;
+}
+button {
+  padding: 5px;
+  background-color: rgba(75, 75, 212, 0.678);
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.nav {
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(29, 123, 230);
+}
+.nav-center {
+  text-decoration: none;
+  top: 50%;
+  left: 50%;
+  margin-left: 40%;
+}
+.nav-center a {
+  text-decoration: none;
+  color: skyblue;
+}
